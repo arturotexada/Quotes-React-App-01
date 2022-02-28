@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import Frase from './components/Frase';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+ // console.log(frases[1].quote);
+  //console.log(frases[1].author);
+  
+    //const quote = frases[0];
+    return (
+      <div className="App">
+       <Frase/>
+      
+      </div>
+    );
+};
 
 export default App;
